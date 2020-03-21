@@ -33,5 +33,7 @@ namespace Reimsys.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
+        //just adding some comment here bro
     }
 }
